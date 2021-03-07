@@ -29,7 +29,7 @@ def findCvNumber(list,mid): #根据mid查找cvhao
         print(rst)
 
         #每个cv号，调用 cv下载img函数
-        for i in range(len(rst[0])):
+        for i in range(len(rst)):
             CvGetImg(rst[i],PATH)
             time.sleep(1)
         page+=1
